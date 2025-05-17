@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Configuration -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO and Social Sharing Metadata -->
+    
+    <meta property="og:title" content="CodeTech Quiz - Test Your Coding Knowledge" />
+    <meta property="twitter:title" content="CodeTech Quiz - Test Your Coding Knowledge" />
+    <meta property="og:image" content="https://imagedelivery.net/FIZL8110j4px64kO6qJxWA/4d1a469djcce7j4f8cj94c3jcf423af221a5/public" />
+    <meta property="twitter:image" content="https://imagedelivery.net/FIZL8110j4px64kO6qJxWA/4d1a469djcce7j4f8cj94c3jcf423af221a5/public" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <!-- Page Title -->
+    <title>CodeTech Quiz</title>
+
+    <!-- External CSS and Favicon -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,...">
+
+  </head>
+  <body>
+    <!-- Header Section with Logo and Navigation -->
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <h1>CodeTech Quiz</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#" id="home-link" class="active">Home</a></li>
+            <li><a href="#" id="start-quiz-link">Start Quiz</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+      
+      <!-- Home Section (Landing Page) -->
+      <section id="home-section" class="section active">
+        <div class="container">
+          
+          <!-- Hero Section with Call-to-Action -->
+          <div class="hero">
+            <div class="hero-content">
+              <h1>Test Your <span>Coding Knowledge</span> with Interactive Quizzes</h1>
+              <p>Challenge yourself with our interactive coding quiz and receive instant feedback on your answers. Track your progress and see how well you know web development concepts.</p>
+              <button id="start-quiz-btn" class="btn btn-primary">Start Quiz</button>
+            </div>
+            
+          </div>
+
+          <!-- Features Overview -->
+          <div class="features">
+            <div class="feature">
+              <div class="feature-number">25+</div>
+              <h3>Quiz Questions</h3>
+              <p>Test your knowledge with our carefully crafted questions covering web development topics.</p>
+            </div>
+            <div class="feature">
+              <div class="feature-number">100%</div>
+              <h3>Instant Feedback</h3>
+              <p>Get immediate feedback on your answers and learn from your mistakes.</p>
+            </div>
+            <div class="feature">
+              <div class="feature-number">24/7</div>
+              <h3>Always Available</h3>
+              <p>Practice whenever you want to improve your coding knowledge.</p>
+            </div>
+          </div>
+
+          <!-- Educational Benefits Section -->
+          <div class="content-grid">
+            <div class="text-content">
+              <h2>Why Test Your Knowledge?</h2>
+              <p>Regular testing is one of the most effective ways to reinforce learning. Our quizzes help you identify knowledge gaps and strengthen your understanding of programming concepts.</p>
+              <ul class="benefits-list">
+                <li>Immediate feedback on your answers</li>
+                <li>Track your progress over time</li>
+                <li>Learn from detailed explanations</li>
+                <li>Focus your studies on areas that need improvement</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quiz Section -->
+      <section id="quiz-section" class="section">
+        <div class="container">
+          
+          <!-- Quiz Header with Progress Indicator -->
+          <div class="quiz-header">
+            <h2>Quiz Challenge <span id="question-counter">(1/30)</span></h2>
+            <div class="progress-container">
+              <div class="progress-bar">
+                <div class="progress" id="quiz-progress"></div>
+              </div>
+              <div class="progress-text" id="progress-text">Question 1 of 30</div>
+            </div>
+          </div>
+          
+          <!-- Quiz Question Card -->
+          <div class="quiz-card" id="question-card">
+            <h3 id="question-text">Loading question...</h3>
+            <div class="options" id="options-container">
+              <!-- JavaScript dynamically loads options here -->
+            </div>
+            <button id="submit-btn" class="btn btn-primary" disabled>Submit Answer</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Results Section -->
+      <section id="results-section" class="section">
+        <div class="container">
+          <div class="results-card">
+
+            <!-- Trophy Icon -->
+            <div class="award-icon">🏆</div>
+            <h2>Quiz Results</h2>
+
+            <!-- Final Score Display -->
+            <div class="score" id="score-display">0/30</div>
+            
+            <!-- Visual Score Gauge -->
+            <div class="score-gauge">
+              <div class="gauge-bg"></div>
+              <div class="gauge-fill" id="gauge-fill"></div>
+              <p class="percentage" id="percentage">0%</p>
+            </div>
+            
+            <!-- Summary of Questions -->
+            <div class="summary">
+              <h3>Question Summary</h3>
+              <div class="summary-list" id="summary-list">
+                <!-- JavaScript inserts question results here -->
+              </div>
+            </div>
+
+            <!-- Retake and Review Buttons -->
+            <button id="retake-quiz" class="btn btn-primary">Retake Quiz</button>
+            <button id="view-all-results" class="btn btn-secondary">View All Questions</button>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 CodeTech Quiz. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+  </body>
+</html>
