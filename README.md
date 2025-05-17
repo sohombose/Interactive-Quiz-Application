@@ -89,3 +89,7 @@ Conclusion
 In summary, the Interactive Quiz Application is a fully functional front-end web app that demonstrates core skills in HTML, CSS, and JavaScript. It represents a strong starting point for more complex assessment and learning management systems. This project not only fulfilled the internship task requirements but also enhanced the understanding of DOM manipulation, event handling, user feedback mechanisms, and modular code design.
 
 It stands as an excellent portfolio project for any web development aspirant and has real-world usability across education, recruitment, and corporate learning sectors.
+
+# OUTPUT
+
+![Image](https://github.com/user-attachments/assets/bfa97df8-f396-4ffb-8f0e-15b1d487d708)
